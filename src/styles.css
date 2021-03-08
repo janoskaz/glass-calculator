@@ -1,1 +1,28 @@
 /* You can add global styles to this file, and also import other style files */
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+
+mat-slider {
+	width: 100% !important;
+}
+
+mwl-gauge {
+  max-width: 150px;
+  max-height: 150px;
+  padding: 2rem;
+}
+mwl-gauge > .gauge > .dial {
+  stroke: #334455;
+  stroke-width: 4;
+  fill: rgba(0, 0, 0, 0);
+}
+mwl-gauge > .gauge > .value {
+  stroke: #C9DE3C;
+  stroke-width: 4;
+  fill: rgba(0, 0, 0, 0);
+}
+mwl-gauge > .gauge > .value-text {
+    fill: #334455;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 0.75em;
+}
